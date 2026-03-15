@@ -1,28 +1,3 @@
-# import streamlit as st
-# from PIL import Image
-# from gesture import detect_gesture   # import your function from gesture.py
-
-# st.set_page_config(page_title="Hand Gesture Recognition", layout="centered")
-
-# st.title("Hand Gesture Recognition")
-# st.write("Capture an image from your webcam and detect the gesture.")
-
-# captured_image = st.camera_input("Capture your hand gesture")
-
-# if captured_image is not None:
-#     image = Image.open(captured_image)
-
-#     st.subheader("Captured Image")
-#     st.image(image, caption="Original Image", use_container_width=True)
-
-#     processed_img, gesture_name, finger_count = detect_gesture(image)
-
-#     st.subheader("Detection Result")
-#     st.success(f"Detected Gesture: {gesture_name}")
-#     st.info(f"Finger Count: {finger_count}")
-
-#     st.image(processed_img, caption="Processed Image", use_container_width=True)
-
 
 import streamlit as st
 from PIL import Image
